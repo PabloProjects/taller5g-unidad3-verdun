@@ -1,4 +1,3 @@
-# ejercicio1_casa.py
 from PIL import Image
 import math
 
@@ -24,7 +23,7 @@ def dda(pixels, x0, y0, x1, y1, color, ancho, alto):
 
 
 def dibujar_rectangulo(pixels, x0, y0, x1, y1, color, ancho, alto):
-    """Dibuja un rectangulo utilizando cuatro lineas DDA."""
+    #rectangulo utilizando cuatro lineas DDA.
 
     dda(pixels, x0, y0, x1, y0, color, ancho, alto)
     dda(pixels, x1, y0, x1, y1, color, ancho, alto)

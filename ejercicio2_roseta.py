@@ -1,5 +1,3 @@
-# ejercicio2_roseta.py
-
 from PIL import Image
 import math
 
